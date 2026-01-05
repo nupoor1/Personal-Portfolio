@@ -29,7 +29,7 @@ export default function Home() {
         {text}
       </h1>
 
-      <div className="hidden lg:block pointer-events-none">
+      <div className="hidden lg:block">
       <StarIcon className="hidden md:block top-30 left-45 rotate-12" />
       <StarIcon className="hidden md:block top-50 right-75 -rotate-6" />
       <StarIcon className="hidden md:block bottom-32 left-90 rotate-45" />
