@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     let i = 0;
-    const speed = 80; // typing speed in ms
+    const speed = 80;
 
     const timer = setInterval(() => {
       setText(fullText.slice(0, i));

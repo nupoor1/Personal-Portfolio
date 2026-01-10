@@ -17,8 +17,16 @@ export default function Projects() {
       description: "HVAC energy saving consultancy site that that allows users to upload system data, analyze efficiency scores, and track historical performance over time",
       year: "2025",
       imageUrl: "/images/thermosight.png",
-      technologies: ["flask", "pandas", "sql", "jinja2", "chart.js", "tailwind"],
+      technologies: ["flask", "pandas", "sql", "csv", "jinja2", "chart.js", "tailwind"],
       githubUrl: "https://github.com/nupoor1/Thermosight",
+    },
+    {
+      title: "Event Detect",
+      description: "real-time event security system that detects, alerts, and logs unsafe crowd behaviour to prevent incidents",
+      year: "2025",
+      imageUrl: "/images/eventdetect.png",
+      technologies: ["opencv", "ultralytics", "flask", "threading", "csv", "numpy", "tailwind"],
+      githubUrl: "https://github.com/nupoor1/Event-Detect",
     },
     {
       title: "Personal Portfolio",
@@ -78,8 +86,10 @@ export default function Projects() {
       <StarIcon className="hidden md:block top-260 left-12 rotate-45" />
       <StarIcon className="hidden md:block top-304 right-10 rotate-6" />
       <StarIcon className="hidden md:block top-336 left-6 -rotate-6" />
+      <StarIcon className="hidden md:block bottom-125 left-22 rotate-64" />
+      <StarIcon className="hidden md:block bottom-75 left-12 rotate-43" />
       <StarIcon className="hidden md:block bottom-15 left-26 rotate-45" />
-      <StarIcon className="hidden md:block bottom-35 right-25 rotate-90" />
+      <StarIcon className="hidden md:block bottom-130 right-25 rotate-90" />
       </div>
       <h1 className="text-4xl md:text-5xl mb-4 font-bold text-white text-center">Projects</h1>
       <p className="text-neutral-100 text-center mt-2 mb-12">some of my past work</p>
