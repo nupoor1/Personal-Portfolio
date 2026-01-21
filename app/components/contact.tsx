@@ -23,8 +23,8 @@ export default function Contact() {
         {[
           {
             title: "Email",
-            value: "n4patil@uwaterloo.ca",
-            link: "mailto:n4patil@uwaterloo.ca",
+            value: "nupoor.patil@uwaterloo.ca",
+            link: "mailto:nupoor.patil@uwaterloo.ca",
           },
           {
             title: "GitHub",
