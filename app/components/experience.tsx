@@ -16,6 +16,13 @@ export default function Experiences() {
 
   const experiences: ExperienceProps[] = [
     {
+      role: 'System Support Officer',
+      company: 'Attorney General',
+      date: 'May 2026 - Present',
+      imageUrl: '/images/ontarioicon.jpg',
+      description: 'Deploying and managing enterprise infrastructure/software at OPGT.'
+    },
+    {
       role: 'STEM Instructor',
       company: 'City of Brampton',
       date: 'Sep 2024 - Present',
